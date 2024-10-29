@@ -52,7 +52,7 @@ export default function SearchAnnales() {
 
           {filteredQuestions.length === 0 && (
             <div className="text-center py-8 text-gray-500">
-              Aucun résultat trouvé pour "{searchTerm}"
+              Aucun résultat trouvé pour &quot;{searchTerm}&quot;
             </div>
           )}
         </div>
